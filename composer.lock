@@ -215,12 +215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Package.git",
-                "reference": "4cd2669577271fd49c727add137289af5d77a39e"
+                "reference": "fd4603c9c6cbd78ca34d5c39a157f137c891bd9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/4cd2669577271fd49c727add137289af5d77a39e",
-                "reference": "4cd2669577271fd49c727add137289af5d77a39e",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/fd4603c9c6cbd78ca34d5c39a157f137c891bd9e",
+                "reference": "fd4603c9c6cbd78ca34d5c39a157f137c891bd9e",
                 "shasum": ""
             },
             "require": {
@@ -276,20 +276,20 @@
                 "hypermedia",
                 "rest"
             ],
-            "time": "2015-03-08 02:00:52"
+            "time": "2015-03-08 11:06:19"
         },
         {
             "name": "bear/query-repository",
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/koriym/BEAR.QueryRepository.git",
-                "reference": "596d15358d2fb9712893095b081e9b3ff4d021aa"
+                "url": "https://github.com/bearsunday/BEAR.QueryRepository.git",
+                "reference": "222135ccb882736e8854f557c5dcbf1b22f92d54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koriym/BEAR.QueryRepository/zipball/596d15358d2fb9712893095b081e9b3ff4d021aa",
-                "reference": "596d15358d2fb9712893095b081e9b3ff4d021aa",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.QueryRepository/zipball/222135ccb882736e8854f557c5dcbf1b22f92d54",
+                "reference": "222135ccb882736e8854f557c5dcbf1b22f92d54",
                 "shasum": ""
             },
             "require": {
@@ -320,7 +320,7 @@
                 }
             ],
             "description": "Resource query responsibility segregation",
-            "time": "2015-02-13 15:30:54"
+            "time": "2015-03-08 18:41:25"
         },
         {
             "name": "bear/resource",
@@ -703,12 +703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "d56ff5a351d43cb4d26589f2aff878ae7cf01ff1"
+                "reference": "c96636d19231fd0110021060fb258169b4eacdb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/d56ff5a351d43cb4d26589f2aff878ae7cf01ff1",
-                "reference": "d56ff5a351d43cb4d26589f2aff878ae7cf01ff1",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c96636d19231fd0110021060fb258169b4eacdb3",
+                "reference": "c96636d19231fd0110021060fb258169b4eacdb3",
                 "shasum": ""
             },
             "require": {
@@ -740,7 +740,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-02-26 18:19:40"
+            "time": "2015-03-08 18:38:13"
         },
         {
             "name": "nocarrier/hal",

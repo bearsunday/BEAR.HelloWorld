@@ -7,19 +7,20 @@ namespace BEAR\HelloWorld;
 
 use BEAR\AppMeta\AppMeta;
 use BEAR\Package\Bootstrap;
-use BEAR\Package\Provide\Transfer\Http304;
+use BEAR\QueryRepository\HttpCache;
+use BEAR\Resource\ResourceObject;
+use BEAR\Sunday\Provide\Transfer\HttpResponder;
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use Doctrine\Common\Cache\ApcCache;
 
 load: {
-    $dir = dirname(__DIR__);
-    $loader = require $dir . '/vendor/autoload.php';
+    $loader = require dirname(__DIR__) . '/vendor/autoload.php';
     AnnotationRegistry::registerLoader([$loader, 'loadClass']);
 }
 
-http304: {
-    if ((new Http304)->isNotModified(__NAMESPACE__ , $_SERVER)) {
-        http_response_code(304);
+http_cache: {
+    $httpCache = new HttpCache(__NAMESPACE__ ,$_SERVER);
+    if ($httpCache()) {
         exit(0);
     }
 }
@@ -36,10 +37,13 @@ try {
         ->{$request->method}
         ->uri($request->path)
         ->withQuery($request->query)
+        ->eager
         ->request();
 
     // representation transfer
-    $page()->transfer($app->responder, $_SERVER);
+    /* @var $page ResourceObject */
+    $page->transfer($app->responder, $_SERVER);
+    $page->transfer($httpCache->responder, $_SERVER);
     exit(0);
 } catch (\Exception $e) {
     $app->error->handle($e, $request)->transfer();
