@@ -1,0 +1,22 @@
+{
+    "name": "bear/helloworld",
+    "description":"n/a",
+    "license": "proprietary",
+    "require": {
+        "bear/package": "~1.0@dev",
+        "facebook/xhprof": "dev-master"
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "BEAR\\HelloWorld\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
