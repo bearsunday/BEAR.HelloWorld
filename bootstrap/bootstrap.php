@@ -19,8 +19,10 @@ load: {
 }
 
 http_cache: {
-    $httpCache = new HttpCache(__NAMESPACE__ ,$_SERVER);
-    if ($httpCache()) {
+    $httpCache = new HttpCache(__NAMESPACE__);
+    list($code, $message) = $httpCache($_SERVER);
+    if ($code) {
+        error_log("code:{$code} {$message}");
         exit(0);
     }
 }
@@ -43,7 +45,7 @@ try {
     // representation transfer
     /* @var $page ResourceObject */
     $page->transfer($app->responder, $_SERVER);
-    $page->transfer($httpCache->responder, $_SERVER);
+    $page->transfer($httpCache->saver, $_SERVER);
     exit(0);
 } catch (\Exception $e) {
     $app->error->handle($e, $request)->transfer();

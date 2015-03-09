@@ -12,10 +12,28 @@ use BEAR\Resource\ResourceObject;
  */
 class Index extends ResourceObject
 {
-    public function onGet($name = 'BEAR.Sunday')
+    public $body = ['greeting' => 'Hello BEAR'];
+
+    public function onGet()
     {
-        $this->body['greeting'] = 'Hello ' . $name;
+        return $this;
+    }
+
+    public function onPost($name)
+    {
+        $this->code = 201;
+        $this->body['greeting'] = 'Post ' . $name;
 
         return $this;
+
+    }
+
+    public function onPut($name)
+    {
+        $this->code = 202;
+        $this->body['greeting'] = 'Put ' . $name;
+
+        return $this;
+
     }
 }
