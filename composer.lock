@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03b0d8303e5f76ea53b49939c513fd96",
+    "hash": "4f7d1d9547adf2595b92dbf320b9dca9",
     "packages": [
         {
             "name": "aura/cli",
-            "version": "dev-develop-2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Cli.git",
-                "reference": "cb6db88391fa094d7954df97fb8972b5c4298880"
+                "reference": "86565b72309c298b4222f1f37fb7e502ece1aebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Cli/zipball/cb6db88391fa094d7954df97fb8972b5c4298880",
-                "reference": "cb6db88391fa094d7954df97fb8972b5c4298880",
+                "url": "https://api.github.com/repos/auraphp/Aura.Cli/zipball/86565b72309c298b4222f1f37fb7e502ece1aebe",
+                "reference": "86565b72309c298b4222f1f37fb7e502ece1aebe",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "options",
                 "stdio"
             ],
-            "time": "2015-02-09 23:18:46"
+            "time": "2015-01-19 22:38:16"
         },
         {
             "name": "aura/router",
@@ -119,16 +119,16 @@
         },
         {
             "name": "aura/web",
-            "version": "dev-develop-2",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Web.git",
-                "reference": "6b79ef534ce84a659c24d293b43e3b5eaf81cf36"
+                "reference": "2a29c536151ebed7f4317d4421567eb1f734455d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Web/zipball/6b79ef534ce84a659c24d293b43e3b5eaf81cf36",
-                "reference": "6b79ef534ce84a659c24d293b43e3b5eaf81cf36",
+                "url": "https://api.github.com/repos/auraphp/Aura.Web/zipball/2a29c536151ebed7f4317d4421567eb1f734455d",
+                "reference": "2a29c536151ebed7f4317d4421567eb1f734455d",
                 "shasum": ""
             },
             "require": {
@@ -168,7 +168,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-01-19 21:29:16"
+            "time": "2014-11-07 16:41:00"
         },
         {
             "name": "bear/app-meta",
@@ -211,16 +211,16 @@
         },
         {
             "name": "bear/package",
-            "version": "dev-develop-2",
+            "version": "1.0.0-alpha.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Package.git",
-                "reference": "fd4603c9c6cbd78ca34d5c39a157f137c891bd9e"
+                "reference": "e36cd5d5529664beb893506978b70abf48cf4cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/fd4603c9c6cbd78ca34d5c39a157f137c891bd9e",
-                "reference": "fd4603c9c6cbd78ca34d5c39a157f137c891bd9e",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/e36cd5d5529664beb893506978b70abf48cf4cfa",
+                "reference": "e36cd5d5529664beb893506978b70abf48cf4cfa",
                 "shasum": ""
             },
             "require": {
@@ -276,7 +276,7 @@
                 "hypermedia",
                 "rest"
             ],
-            "time": "2015-03-08 11:06:19"
+            "time": "2015-02-26 21:12:08"
         },
         {
             "name": "bear/query-repository",
@@ -324,7 +324,7 @@
         },
         {
             "name": "bear/resource",
-            "version": "dev-develop-2",
+            "version": "1.0.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Resource.git",
@@ -384,7 +384,7 @@
         },
         {
             "name": "bear/sunday",
-            "version": "dev-develop-2",
+            "version": "1.0.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Sunday.git",
@@ -436,16 +436,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "dev-master",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e"
+                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/b5202eb9e83f8db52e0e58867e0a46e63be8332e",
-                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/eeda578cbe24a170331a1cfdf78be723412df7a4",
+                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4",
                 "shasum": ""
             },
             "require": {
@@ -500,20 +500,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-12-23 22:40:37"
+            "time": "2014-12-20 20:49:38"
         },
         {
             "name": "doctrine/cache",
-            "version": "dev-master",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "6c5c32eb6c596993d04e13b95d0c1e8153783d7a"
+                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/6c5c32eb6c596993d04e13b95d0c1e8153783d7a",
-                "reference": "6c5c32eb6c596993d04e13b95d0c1e8153783d7a",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/2346085d2b027b233ae1d5de59b07440b9f288c8",
+                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8",
                 "shasum": ""
             },
             "require": {
@@ -524,13 +524,13 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=3.7",
-                "predis/predis": "~1.0",
+                "predis/predis": "~0.8",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5.x-dev"
+                    "dev-master": "1.4.x-dev"
                 }
             },
             "autoload": {
@@ -570,11 +570,11 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-02-16 12:24:01"
+            "time": "2015-01-15 20:38:55"
         },
         {
             "name": "doctrine/lexer",
-            "version": "dev-master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/lexer.git",
@@ -664,16 +664,16 @@
         },
         {
             "name": "koriym/psr4list",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koriym/Koriym.Psr4List.git",
-                "reference": "601ec2933b4f2a74ec127b4ccadcdd56ae585c17"
+                "reference": "090772659511ea137bbc573e681cf71a1b7f7b2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koriym/Koriym.Psr4List/zipball/601ec2933b4f2a74ec127b4ccadcdd56ae585c17",
-                "reference": "601ec2933b4f2a74ec127b4ccadcdd56ae585c17",
+                "url": "https://api.github.com/repos/koriym/Koriym.Psr4List/zipball/090772659511ea137bbc573e681cf71a1b7f7b2d",
+                "reference": "090772659511ea137bbc573e681cf71a1b7f7b2d",
                 "shasum": ""
             },
             "type": "library",
@@ -695,20 +695,20 @@
             "keywords": [
                 "psr4"
             ],
-            "time": "2014-12-07 13:13:05"
+            "time": "2014-12-07 13:10:31"
         },
         {
             "name": "nikic/php-parser",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "a2d7e8977a406232b3a3396cae5925d8f26eadbe"
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a2d7e8977a406232b3a3396cae5925d8f26eadbe",
-                "reference": "a2d7e8977a406232b3a3396cae5925d8f26eadbe",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ac05ef6f95bf8361549604b6031c115f92f39528",
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528",
                 "shasum": ""
             },
             "require": {
@@ -718,7 +718,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -740,7 +740,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-03-09 07:54:20"
+            "time": "2015-01-18 11:29:59"
         },
         {
             "name": "nocarrier/hal",
@@ -792,24 +792,19 @@
         },
         {
             "name": "psr/log",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "1af1529b49a6e065ae6802e70192aba35d79b7d8"
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/1af1529b49a6e065ae6802e70192aba35d79b7d8",
-                "reference": "1af1529b49a6e065ae6802e70192aba35d79b7d8",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
                 "shasum": ""
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Psr\\Log\\": ""
@@ -831,11 +826,11 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2015-02-05 09:32:11"
+            "time": "2012-12-21 11:40:51"
         },
         {
             "name": "ray/aop",
-            "version": "dev-develop-2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ray-di/Ray.Aop.git",
@@ -888,7 +883,7 @@
         },
         {
             "name": "ray/di",
-            "version": "dev-develop-2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ray-di/Ray.Di.git",
@@ -937,21 +932,21 @@
         },
         {
             "name": "ray/web-param-module",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ray-di/Ray.WebParamModule.git",
-                "reference": "4b14fcacb83bf5d3581d6afa9628d25861746252"
+                "reference": "c7dd0fd10a2444af1df9fca42652eb955c80a1da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ray-di/Ray.WebParamModule/zipball/4b14fcacb83bf5d3581d6afa9628d25861746252",
-                "reference": "4b14fcacb83bf5d3581d6afa9628d25861746252",
+                "url": "https://api.github.com/repos/ray-di/Ray.WebParamModule/zipball/c7dd0fd10a2444af1df9fca42652eb955c80a1da",
+                "reference": "c7dd0fd10a2444af1df9fca42652eb955c80a1da",
                 "shasum": ""
             },
             "require": {
-                "doctrine/cache": "~1.0",
-                "ray/di": "~2.0@dev"
+                "bear/resource": "~1.0@dev",
+                "koriym/psr4list": "~1.0@dev"
             },
             "type": "library",
             "extra": {
@@ -961,23 +956,18 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Ray\\WebContextParam\\": "src/"
-                },
-                "files": [
-                    "doctrine_annotations.php"
-                ]
+                    "BEAR\\AppMeta\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "Binds the value(s) of a web context to method parameter.",
+            "description": "BEAR.Sunday application meta information",
             "keywords": [
-                "Ray.Di module",
-                "Web context",
-                "testability"
+                "BEARSunday"
             ],
-            "time": "2015-03-01 15:39:27"
+            "time": "2015-02-17 11:16:56"
         },
         {
             "name": "rize/uri-template",
@@ -1031,7 +1021,7 @@
         "bear/package": 20,
         "facebook/xhprof": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
