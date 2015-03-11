@@ -2,12 +2,8 @@
 
 namespace BEAR\HelloWorld\Resource\Page;
 
-use BEAR\Package\Annotation\Etag;
 use BEAR\Resource\ResourceObject;
 
-/**
- * @Etag
- */
 class Raw extends ResourceObject
 {
     public $body = ['greeting' => 'Hello BEAR'];
