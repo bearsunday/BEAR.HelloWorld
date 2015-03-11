@@ -211,16 +211,16 @@
         },
         {
             "name": "bear/package",
-            "version": "1.0.0-alpha.2",
+            "version": "1.0.0-alpha.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Package.git",
-                "reference": "e36cd5d5529664beb893506978b70abf48cf4cfa"
+                "reference": "e88c742b3c75c5e7e96512ec8662e7241cf6a75c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/e36cd5d5529664beb893506978b70abf48cf4cfa",
-                "reference": "e36cd5d5529664beb893506978b70abf48cf4cfa",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/e88c742b3c75c5e7e96512ec8662e7241cf6a75c",
+                "reference": "e88c742b3c75c5e7e96512ec8662e7241cf6a75c",
                 "shasum": ""
             },
             "require": {
@@ -232,13 +232,6 @@
                 "bear/sunday": "~1.0",
                 "php": ">=5.5.0",
                 "ray/web-param-module": "~0.1"
-            },
-            "provide": {
-                "bear/framework": "1.0.0"
-            },
-            "require-dev": {
-                "facebook/xhprof": "dev-master",
-                "koriym/printo": "~1.0@dev"
             },
             "bin": [
                 "bin/bear.env",
@@ -276,20 +269,20 @@
                 "hypermedia",
                 "rest"
             ],
-            "time": "2015-02-26 21:12:08"
+            "time": "2015-03-10 10:38:54"
         },
         {
             "name": "bear/query-repository",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.QueryRepository.git",
-                "reference": "d81acab25680814fcfdf6ebf539b3ed488ddb34b"
+                "reference": "fea591e64f154f8b65930cefffcf5af16c1f127f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.QueryRepository/zipball/d81acab25680814fcfdf6ebf539b3ed488ddb34b",
-                "reference": "d81acab25680814fcfdf6ebf539b3ed488ddb34b",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.QueryRepository/zipball/fea591e64f154f8b65930cefffcf5af16c1f127f",
+                "reference": "fea591e64f154f8b65930cefffcf5af16c1f127f",
                 "shasum": ""
             },
             "require": {
@@ -320,7 +313,7 @@
                 }
             ],
             "description": "Resource query responsibility segregation",
-            "time": "2015-03-09 15:34:30"
+            "time": "2015-03-11 02:36:49"
         },
         {
             "name": "bear/resource",
