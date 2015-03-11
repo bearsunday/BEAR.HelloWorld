@@ -47,6 +47,5 @@ curl -v http://127.0.0.1:8080/
 ```
 request with `If-None-Match` header
 ```
-ab -t 10 -c 10 http://127.0.0.1:8080/
 ab -H "If-None-Match: 2669725389" -t 10 -c 10 http://127.0.0.1:8080/
 ```
