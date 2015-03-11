@@ -4,7 +4,7 @@ Hello World benchmarking for BEAR.Sunday
 ## Installation
 Install project
 ```
-git https://github.com/bearsunday/BEAR.HelloWorld.git
+git clone https://github.com/bearsunday/BEAR.HelloWorld.git
 cd BEAR.HelloWorld
 composer install
 ```
