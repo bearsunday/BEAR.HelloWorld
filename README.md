@@ -6,7 +6,7 @@ Install project
 ```
 git clone https://github.com/bearsunday/BEAR.HelloWorld.git
 cd BEAR.HelloWorld
-composer install
+composer install --no-dev --optimize-autoloader
 ```
 start php server
 ```
