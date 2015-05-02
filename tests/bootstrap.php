@@ -1,5 +1,6 @@
 <?php
 
+use BEAR\Package\Bootstrap;
 use BEAR\Resource\ResourceInterface;
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use BEAR\HelloWorld;
@@ -19,4 +20,4 @@ $_ENV['TEST_DIR'] = __DIR__;
 $_ENV['TMP_DIR'] = __DIR__ . '/tmp';
 
 // set the resource client
-$GLOBALS['RESOURCE'] = (new Injector(new AppModule, __DIR__ . '/tmp'))->getInstance(ResourceInterface::class);
+$GLOBALS['RESOURCE'] = (new Bootstrap)->getApp('BEAR\HelloWorld', 'app')->resource;

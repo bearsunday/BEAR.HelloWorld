@@ -2,30 +2,30 @@
 Hello World benchmarking for BEAR.Sunday
 
 ## Installation
-Install project
+Install project.
 ```
 git clone https://github.com/bearsunday/BEAR.HelloWorld.git
 cd BEAR.HelloWorld
-composer install
+composer install --no-dev --optimize-autoloader
 ```
 start php server
 ```
 php -S 127.0.0.1:8080 var/www/index.php
 ```
 
-### test raw page
+### test
+
+Test raw page.
 ```
 ab -t 10 -c 10 http://127.0.0.1:8080/raw
 ```
 
-### test @QueryRepository page witout Etag
+Test cached page **witout** Etag.
 ```
 ab -t 10 -c 10 http://127.0.0.1:8080/
 ```
 
-### test @QueryRepository page with Etag
-
-get etag
+To test cached page **with** Etag, curl with `-v` option first.
 ```
 curl -v http://127.0.0.1:8080/
 * Hostname was NOT found in DNS cache
@@ -45,7 +45,7 @@ curl -v http://127.0.0.1:8080/
 < Content-type: text/html; charset=UTF-8
 < 
 ```
-request with `If-None-Match` header
+Request with `If-None-Match` header and found `Etag` value for testing.
 ```
 ab -H "If-None-Match: 2669725389" -t 10 -c 10 http://127.0.0.1:8080/
 ```

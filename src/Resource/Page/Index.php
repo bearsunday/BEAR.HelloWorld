@@ -3,11 +3,11 @@
 namespace BEAR\HelloWorld\Resource\Page;
 
 use BEAR\Package\Annotation\Etag;
-use BEAR\RepositoryModule\Annotation\QueryRepository;
+use BEAR\RepositoryModule\Annotation\Cacheable;
 use BEAR\Resource\ResourceObject;
 
 /**
- * @QueryRepository
+ * @Cacheable
  * @Etag
  */
 class Index extends ResourceObject
