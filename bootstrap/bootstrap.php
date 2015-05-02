@@ -29,7 +29,7 @@ http_cache: {
 
 route: {
     /** @var $app \BEAR\Sunday\Extension\Application\AbstractApp */
-    $app = (new Bootstrap)->newApp(new AppMeta(__NAMESPACE__), $context, new ApcCache);
+    $app = (new Bootstrap)->getApp(__NAMESPACE__, $context);
     $request = $app->router->match($GLOBALS, $_SERVER);
 }
 
