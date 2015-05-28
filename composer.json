@@ -4,7 +4,8 @@
     "license": "proprietary",
     "require": {
         "bear/package": "~1.0@dev",
-        "facebook/xhprof": "dev-master"
+        "facebook/xhprof": "dev-master",
+        "madapaja/twig-module": "~1.0"
     },
     "require-dev": {
     },
