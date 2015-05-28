@@ -67,62 +67,6 @@
             "time": "2015-03-27 17:23:08"
         },
         {
-            "name": "aura/web",
-            "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/auraphp/Aura.Web.git",
-                "reference": "b22ba83141384981514e2057ebe99e9a5509914f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Web/zipball/b22ba83141384981514e2057ebe99e9a5509914f",
-                "reference": "b22ba83141384981514e2057ebe99e9a5509914f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "aura/di": "~2.0"
-            },
-            "type": "library",
-            "extra": {
-                "aura": {
-                    "type": "library",
-                    "config": {
-                        "common": "Aura\\Web\\_Config\\Common"
-                    }
-                },
-                "branch-alias": {
-                    "dev-develop-2": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Aura\\Web\\": "src/",
-                    "Aura\\Web\\_Config\\": "config/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Aura.Web Contributors",
-                    "homepage": "https://github.com/auraphp/Aura.Web/contributors"
-                }
-            ],
-            "description": "Provides web Request and Response objects for use by web controllers and actions. These are representations of the PHP web environment, not HTTP request and response objects proper.",
-            "homepage": "https://github.com/auraphp/Aura.Web",
-            "keywords": [
-                "request",
-                "response"
-            ],
-            "time": "2015-03-27 18:59:27"
-        },
-        {
             "name": "bear/app-meta",
             "version": "1.0.0",
             "source": {
@@ -160,21 +104,20 @@
         },
         {
             "name": "bear/package",
-            "version": "1.0.0-rc",
+            "version": "1.0.0-rc.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Package.git",
-                "reference": "7931839e805a78dd719fad5da6d75c1e79ae2160"
+                "reference": "916f5ced5105bb583d9644f24b61aa7ee567afef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/7931839e805a78dd719fad5da6d75c1e79ae2160",
-                "reference": "7931839e805a78dd719fad5da6d75c1e79ae2160",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/916f5ced5105bb583d9644f24b61aa7ee567afef",
+                "reference": "916f5ced5105bb583d9644f24b61aa7ee567afef",
                 "shasum": ""
             },
             "require": {
                 "aura/cli": "~2.0",
-                "aura/web": "~2.0",
                 "bear/app-meta": "~1.0",
                 "bear/query-repository": "~1.0",
                 "bear/sunday": "~1.0.0-rc",
@@ -211,20 +154,20 @@
                 "hypermedia",
                 "rest"
             ],
-            "time": "2015-05-21 03:36:14"
+            "time": "2015-05-28 04:04:10"
         },
         {
             "name": "bear/query-repository",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.QueryRepository.git",
-                "reference": "9047181f6ca0863a3bb1473f73e6428bb4d20c47"
+                "reference": "835d2fadc743b618010c5e317bbdcacad6e21526"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.QueryRepository/zipball/9047181f6ca0863a3bb1473f73e6428bb4d20c47",
-                "reference": "9047181f6ca0863a3bb1473f73e6428bb4d20c47",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.QueryRepository/zipball/835d2fadc743b618010c5e317bbdcacad6e21526",
+                "reference": "835d2fadc743b618010c5e317bbdcacad6e21526",
                 "shasum": ""
             },
             "require": {
@@ -251,7 +194,7 @@
                 }
             ],
             "description": "Resource query responsibility segregation",
-            "time": "2015-05-19 12:39:03"
+            "time": "2015-05-28 03:58:21"
         },
         {
             "name": "bear/resource",
@@ -904,16 +847,16 @@
         },
         {
             "name": "ray/aop",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ray-di/Ray.Aop.git",
-                "reference": "b718e857c0a53df9287d352646aeb7594aa4009a"
+                "reference": "ebda1d3013e35a9538d390d6914f3e532d290c3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ray-di/Ray.Aop/zipball/b718e857c0a53df9287d352646aeb7594aa4009a",
-                "reference": "b718e857c0a53df9287d352646aeb7594aa4009a",
+                "url": "https://api.github.com/repos/ray-di/Ray.Aop/zipball/ebda1d3013e35a9538d390d6914f3e532d290c3e",
+                "reference": "ebda1d3013e35a9538d390d6914f3e532d290c3e",
                 "shasum": ""
             },
             "require": {
@@ -948,20 +891,20 @@
                 "aop",
                 "code-gen"
             ],
-            "time": "2015-04-26 04:09:53"
+            "time": "2015-05-27 14:59:45"
         },
         {
             "name": "ray/compiler",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ray-di/Ray.Compiler.git",
-                "reference": "cf1647c3b027089f15615c3854fb60cc49de402c"
+                "reference": "d34812ab7a2c03cfb7a8319f7888086a8d24e69e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ray-di/Ray.Compiler/zipball/cf1647c3b027089f15615c3854fb60cc49de402c",
-                "reference": "cf1647c3b027089f15615c3854fb60cc49de402c",
+                "url": "https://api.github.com/repos/ray-di/Ray.Compiler/zipball/d34812ab7a2c03cfb7a8319f7888086a8d24e69e",
+                "reference": "d34812ab7a2c03cfb7a8319f7888086a8d24e69e",
                 "shasum": ""
             },
             "require": {
@@ -986,20 +929,20 @@
                 "code-gen",
                 "compiler"
             ],
-            "time": "2015-05-22 12:11:16"
+            "time": "2015-05-26 02:33:24"
         },
         {
             "name": "ray/di",
-            "version": "2.1.4",
+            "version": "2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ray-di/Ray.Di.git",
-                "reference": "54238b73c3bc099f54bb34eaef8b6f8ad19eddfb"
+                "reference": "fb36510912dcd13a0081277e494d4f1e903f58f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ray-di/Ray.Di/zipball/54238b73c3bc099f54bb34eaef8b6f8ad19eddfb",
-                "reference": "54238b73c3bc099f54bb34eaef8b6f8ad19eddfb",
+                "url": "https://api.github.com/repos/ray-di/Ray.Di/zipball/fb36510912dcd13a0081277e494d4f1e903f58f5",
+                "reference": "fb36510912dcd13a0081277e494d4f1e903f58f5",
                 "shasum": ""
             },
             "require": {
@@ -1032,7 +975,7 @@
                 "guice",
                 "ray"
             ],
-            "time": "2015-05-21 03:42:22"
+            "time": "2015-05-28 08:14:04"
         },
         {
             "name": "ray/web-param-module",
