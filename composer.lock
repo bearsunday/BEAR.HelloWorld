@@ -104,23 +104,23 @@
         },
         {
             "name": "bear/package",
-            "version": "1.0.0-rc.4",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Package.git",
-                "reference": "916f5ced5105bb583d9644f24b61aa7ee567afef"
+                "reference": "9cc47b3422f6f337352df63757af80618fb1055f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/916f5ced5105bb583d9644f24b61aa7ee567afef",
-                "reference": "916f5ced5105bb583d9644f24b61aa7ee567afef",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/9cc47b3422f6f337352df63757af80618fb1055f",
+                "reference": "9cc47b3422f6f337352df63757af80618fb1055f",
                 "shasum": ""
             },
             "require": {
                 "aura/cli": "~2.0",
                 "bear/app-meta": "~1.0",
                 "bear/query-repository": "~1.0",
-                "bear/sunday": "~1.0.0-rc",
+                "bear/sunday": "~1.0",
                 "php": ">=5.5.0",
                 "ray/web-param-module": "~1.0"
             },
@@ -154,20 +154,20 @@
                 "hypermedia",
                 "rest"
             ],
-            "time": "2015-05-28 04:04:10"
+            "time": "2015-05-31 09:32:47"
         },
         {
             "name": "bear/query-repository",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.QueryRepository.git",
-                "reference": "835d2fadc743b618010c5e317bbdcacad6e21526"
+                "reference": "3cb451582b099aac82187e59fc005fe89a0763ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.QueryRepository/zipball/835d2fadc743b618010c5e317bbdcacad6e21526",
-                "reference": "835d2fadc743b618010c5e317bbdcacad6e21526",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.QueryRepository/zipball/3cb451582b099aac82187e59fc005fe89a0763ca",
+                "reference": "3cb451582b099aac82187e59fc005fe89a0763ca",
                 "shasum": ""
             },
             "require": {
@@ -194,20 +194,20 @@
                 }
             ],
             "description": "Resource query responsibility segregation",
-            "time": "2015-05-28 03:58:21"
+            "time": "2015-06-03 02:06:52"
         },
         {
             "name": "bear/resource",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Resource.git",
-                "reference": "9c3308ea2c1cc3b6a3328f818813944b68791714"
+                "reference": "aadab7be839fa0e7e4ad6b9fb8dfe20609267439"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Resource/zipball/9c3308ea2c1cc3b6a3328f818813944b68791714",
-                "reference": "9c3308ea2c1cc3b6a3328f818813944b68791714",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Resource/zipball/aadab7be839fa0e7e4ad6b9fb8dfe20609267439",
+                "reference": "aadab7be839fa0e7e4ad6b9fb8dfe20609267439",
                 "shasum": ""
             },
             "require": {
@@ -248,20 +248,20 @@
                 "protocol",
                 "rest"
             ],
-            "time": "2015-05-15 08:18:14"
+            "time": "2015-06-03 02:06:48"
         },
         {
             "name": "bear/sunday",
-            "version": "1.0.0-rc.5",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Sunday.git",
-                "reference": "c6b39ce700e3f2ff427d1a77c3629b60bb54b585"
+                "reference": "85ddb89404052e9760a742c1006f905d170879be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Sunday/zipball/c6b39ce700e3f2ff427d1a77c3629b60bb54b585",
-                "reference": "c6b39ce700e3f2ff427d1a77c3629b60bb54b585",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Sunday/zipball/85ddb89404052e9760a742c1006f905d170879be",
+                "reference": "85ddb89404052e9760a742c1006f905d170879be",
                 "shasum": ""
             },
             "require": {
@@ -283,7 +283,12 @@
             "authors": [
                 {
                     "name": "Akihito Koriyama",
-                    "email": "akihito.koriyama@gmail.com"
+                    "email": "akihito.koriyama@gmail.com",
+                    "homepage": "https://koriym.github.io/"
+                },
+                {
+                    "name": "BEAR.Sunday Contributors",
+                    "homepage": "http://bearsunday.github.io/contributors.html"
                 }
             ],
             "description": "A resource oriented framework",
@@ -295,7 +300,7 @@
                 "ray",
                 "rest"
             ],
-            "time": "2015-04-30 00:27:16"
+            "time": "2015-05-31 09:16:49"
         },
         {
             "name": "doctrine/annotations",

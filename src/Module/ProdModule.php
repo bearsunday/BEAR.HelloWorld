@@ -5,6 +5,7 @@ namespace BEAR\HelloWorld\Module;
 use BEAR\RepositoryModule\Annotation\Storage;
 use BEAR\Package\Context\ProdModule as PackageProdModule;
 use Doctrine\Common\Cache\Cache;
+use Doctrine\Common\Cache\CacheProvider;
 use Ray\Di\AbstractModule;
 use Ray\Di\Scope;
 
@@ -19,7 +20,7 @@ class ProdModule extends AbstractModule
     {
         // configure shared storage for query repository
         $cache = ApcCache::class;
-        $this->bind(Cache::class)->annotatedWith(Storage::class)->to($cache)->in(Scope::SINGLETON);
+        $this->bind(CacheProvider::class)->annotatedWith(Storage::class)->to($cache)->in(Scope::SINGLETON);
 
         $this->install(new PackageProdModule);
     }
